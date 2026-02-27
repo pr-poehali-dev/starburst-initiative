@@ -141,12 +141,21 @@ export function Hero() {
 
           <h1
             ref={titleRef}
-            className="text-7xl font-medium text-balance text-center text-white mb-0 tracking-tight leading-[0.9] lg:text-8xl"
+            className="text-7xl font-medium text-balance text-center text-white mb-8 tracking-tight leading-[0.9] lg:text-8xl"
           >
             {"Перевезём ваш авто"}
             <br />
             <span className="text-orange-200">{"быстро и надёжно"}</span>
           </h1>
+
+          <div className="flex justify-center">
+            <a
+              href="#contact"
+              className="inline-flex items-center gap-3 bg-white text-foreground px-10 py-5 text-lg font-medium tracking-wide hover:bg-orange-200 transition-colors duration-300"
+            >
+              Заказать эвакуатор
+            </a>
+          </div>
         </div>
       </div>
 
