@@ -3,23 +3,23 @@ import { HighlightedText } from "./HighlightedText"
 
 const philosophyItems = [
   {
-    title: "Минимализм со смыслом",
+    title: "Скорость и пунктуальность",
     description:
-      "Каждый элемент имеет свое назначение и пространство для дыхания. Мы убираем лишнее, чтобы раскрыть то, что действительно важно.",
+      "Приезжаем в течение 30–60 минут после звонка. Ценим ваше время и понимаем, что каждая минута на дороге важна.",
   },
   {
-    title: "Архитектурный подход",
+    title: "Бережная перевозка",
     description:
-      "Планировки, вдохновленные структурой, ритмом и материальностью. Здания, которые говорят через пропорции и свет.",
+      "Современное оборудование и профессиональные крепления гарантируют, что ваш автомобиль доедет без царапин и повреждений.",
   },
   {
-    title: "Естественная динамика",
+    title: "Работаем без выходных",
     description:
-      "Движение поддерживает восприятие, но никогда не отвлекает. Анимация, которая ощущается естественно, как свет, скользящий по комнате.",
+      "Наши эвакуаторы работают 24/7 — в любое время суток, в праздники и в плохую погоду. Застряли ночью? Мы едем.",
   },
   {
-    title: "Вневременная эстетика",
-    description: "Элегантный, спокойный и долговечный визуальный язык. Дизайн, который превосходит тренды и стареет с достоинством.",
+    title: "Честные цены",
+    description: "Называем стоимость сразу по телефону, без скрытых доплат. Цена фиксируется до выезда — никаких сюрпризов.",
   },
 ]
 
@@ -53,11 +53,11 @@ export function Philosophy() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
           {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наша философия</p>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Почему выбирают нас</p>
             <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-              Дизайн с
+              Работаем с
               <br />
-              <HighlightedText>намерением</HighlightedText>
+              <HighlightedText>заботой</HighlightedText>
             </h2>
 
             <div className="relative hidden lg:block">
@@ -72,7 +72,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Архитектура - это больше, чем конструкция. Это то, как мы воспринимаем мир. Мы создаем пространства, которые питают человеческий дух.
+              Эвакуация — это стресс. Мы делаем всё, чтобы вы почувствовали поддержку с первой секунды звонка до момента, когда ваш автомобиль на месте.
             </p>
 
             {philosophyItems.map((item, index) => (
